@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    height: 100%;
+    background-image: url("https://image.shutterstock.com/shutterstock/photos/468491156/display_1500/stock-vector-pattern-back-to-school-and-education-with-modern-thin-line-icons-school-supplies-on-white-468491156.jpg");
+    background-blend-mode:luminosity;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 30px;
+    padding: 3% ;
+    min-height: 400px;
+    background-color: white;
+}
+
+#toDoList > div{
+    border: 2px solid black;
+    min-width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 8px 2px;
+}
+
+button{
+
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
